@@ -47,7 +47,7 @@ void keyPressed(){
      
   
   }else if(key == 'n'){
-    println(" OK I please hang on, really need to get Carl, my supervisor...");
+    println(" OK um, please hang on, I really need to get Carl, my supervisor...");
     println("This is Carl, you are a real peice of work, you just made Jenny cry, NOW are you going to let us look in your computer or not.");
     println("just type 1 for YES or 2 for no ");
   // ny
