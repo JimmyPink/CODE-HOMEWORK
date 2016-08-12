@@ -8,19 +8,17 @@ void setup(){
   background(0);
   smooth();
   
-  position = new PVector (width , height/2);
+  position = new PVector (width/2 , height/2);
 
   //x = r*cos(theta);
   //y = r*sin(theta);
 }
 
 void draw(){
-  //this does he trailing effect
   fill(0,10);
-  rect(0, 0, width, height);
+  rect(100, 100, width, height);
   if (mousePressed){
   crazyCircle( mouseX, mouseY);
-  //crazyCircle(mouseX+10 , mouseY);
   }
   
 }
@@ -32,7 +30,7 @@ void crazyCircle( int posX, int posY){
   float x = r*cos(theta);
   float y = r*sin(theta);
   
-  //circle
+  //cirle
   fill(0, 255, 255);
   noStroke();
   rect(x+position.x, y+position.y, 30, 40);
